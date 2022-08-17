@@ -1,0 +1,29 @@
+{
+  "name": "mindblurproject",
+  "version": "1.0.0",
+  "description": "mindblurProject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pineapple": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daianeReina/mindblurProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daianeReina/mindblurProject/issues"
+  },
+  "homepage": "https://github.com/daianeReina/mindblurProject#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
