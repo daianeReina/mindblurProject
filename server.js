@@ -2,7 +2,9 @@ const express = require("express");
 
 const app = express();
 
-app.set("view engine", "hbs");
+const config = require("./config");
+
+config(app);
 
 app.get("/", (req, res) => {
   res.render("home");
